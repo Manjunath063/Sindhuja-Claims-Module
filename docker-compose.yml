@@ -30,7 +30,7 @@ services:
 
   employee-claims:
     build: ./Employee-claims
-    container_name: employee_claims_ui
+    container_name: employee_claims_ui1
     ports:
       - "8008:80"
     depends_on:
